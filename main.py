@@ -10,6 +10,10 @@ class Student:
     def add_courses(self, course_name):
         self.finished_courses.append(course_name)
 
+    def rate(self):
+        self.courses_attached
+
+
 
 class Mentor:
     def __init__(self, name, surname):
